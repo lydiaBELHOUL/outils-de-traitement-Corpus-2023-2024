@@ -63,7 +63,9 @@ les tables ont été construite à partir des infobox contenues dans les biograp
 Neural Text Generation from Structured Data with Application to the Biography Domain 2016
 ## Auteurs:
 Rémi Lebret, David Grangier and Michael Auli.
-### TP1:
+
+
 J'ai eu l'idée de construire un dataset similaire et cela en élaborrants des scripts qui me permettent d'arriver au même résultat que celui de WIKI_BIO.
 
 le format est simple mais assez fastidieux à obtenir car au début j'ai voulu utilisé un autre site de biographie pour extraire mon corpus or que la plus part des sites ne contiennent pas l'infobox qui facilite justement la construction de la table et qui assure que toutes les informations pertinentes figurent dans cette partie.
+Donc j'ai utilisé Wikipedia pour scrapper mon corpus, un corpus plein d'erreur d'encodage que j'ai due supprimer avec un script qui spécifie les ligne s à supprimer car tous les autres nettoyage n'ont pas fonctionné.
