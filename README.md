@@ -50,15 +50,20 @@ Chacune des données est structurée de cette façon:
    },
    "target_text":"pope michael iii of alexandria -lrb- also known as khail iii -rrb- was the coptic pope of alexandria and patriarch of the see of st. mark -lrb- 880 -- 907 -rrb- .\nin 882 , the governor of egypt , ahmad ibn tulun , forced khail to pay heavy contributions , forcing him to sell a church and some attached properties to the local jewish community .\nthis building was at one time believed to have later become the site of the cairo geniza .\n"
 }
-La tâche est : table to text
-La langue: Anglais
-Source: les tables ont été construite à partir des infobox contenues dans les biographie sue Wikipedia tandis que les p rties target_text, ce sont les premiers paragraphes de chacune de ces biographies.
-:
+## La tâche est :
+table to text
+## La langue:
+Anglais
+## Source:
+les tables ont été construite à partir des infobox contenues dans les biographie sue Wikipedia tandis que les p rties target_text, ce sont les premiers paragraphes de chacune de ces biographies.
+
 ## Date de publication hugging face:
 2018
 ## Date de publication de l'article:
 Neural Text Generation from Structured Data with Application to the Biography Domain 2016
 ## Auteurs:
-Rémi Lebret, David Grangier and Michael Auli
+Rémi Lebret, David Grangier and Michael Auli.
+### TP1:
+J'ai eu l'idée de construire un dataset similaire et cela en élaborrants des scripts qui me permettent d'arriver au même résultat que celui de WIKI_BIO.
 
-J'ai eu la bonne idée de construire un dataset similaire et cela en élaborrants des scripts qui me permettent d'arriver au même résultat que celui de WIKI_BIO.
+le format est simple mais assez fastidieux à obtenir car au début j'ai voulu utilisé un autre site de biographie pour extraire mon corpus or que la plus part des sites ne contiennent pas l'infobox qui facilite justement la construction de la table et qui assure que toutes les informations pertinentes figurent dans cette partie.
