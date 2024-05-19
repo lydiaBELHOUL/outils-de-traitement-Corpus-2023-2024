@@ -69,3 +69,6 @@ J'ai eu l'idée de construire un dataset similaire et cela en élaborrants des s
 
 le format est simple mais assez fastidieux à obtenir car au début j'ai voulu utilisé un autre site de biographie pour extraire mon corpus or que la plus part des sites ne contiennent pas l'infobox qui facilite justement la construction de la table et qui assure que toutes les informations pertinentes figurent dans cette partie.
 Donc j'ai utilisé Wikipedia pour scrapper mon corpus, un corpus plein d'erreur d'encodage que j'ai due supprimer avec un script qui spécifie les ligne s à supprimer car tous les autres nettoyage n'ont pas fonctionné.
+
+Pour ce qui est des statistiques, tout comme les auteurs, j'ai fait la comparaison entre le nombre de tockens dans la table et celui dans la première phrase du contexte, ce qui a monter qu'en moyenne les tables sont cinq fois plus lonques que les premieres phrase du premier paragraphe , ce qui est logique car elle ne peut pas contenir tous les éléments principaux de la biographie.
+
